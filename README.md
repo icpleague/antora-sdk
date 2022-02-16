@@ -8,17 +8,16 @@ This project uses [Antora](https://antora.org) to generate an interface for the 
 - [dfinity-lab/motoko](https://github.com/dfinity-lab/motoko)
 
 ## Development
-Run `gulp preview` to run the project locally. Doing this uses the sample documentation (not the docs defined in [dfinity-docs-playbook](https://github.com/dfinity-lab/dfinity-docs-playbook) ).
+Run `gulp preview` to run the project locally. Doing this uses the sample documentation .
 
 ## Building the UI
-Once you're happy with the changes, run `gulp-bundle` to generate a new `ui-bundle.zip` folder. The [dfinity-docs-playbook](https://github.com/dfinity-lab/dfinity-docs-playbook) repo references this zip file on the `master` branch.
+Once you're happy with the changes, run `gulp-bundle` to generate a new `ui-bundle.zip` folder.
 
 ## Deployments
-Deployments are handled automatically through netlify whenever commits to master happen on [dfinity-docs-playbook](https://github.com/dfinity-lab/dfinity-docs-playbook). Since this repo doesn't trigger netlify deployments, you'll have to manually kick off a new deployment from Netlify.
+Deployments are handled automatically through netlify whenever commits to master 
 
 #### Note
-If you want to preview the site with actuall content before deploying, you can run `antora antora-playbook.yml` in [dfinity-docs-playbook](https://github.com/dfinity-lab/dfinity-docs-playbook) which will generate the site. 
-
+If you want to preview the site with actuall content before deploying, you can run `antora antora-playbook.yml` 
 
 ## Further Antora Documentation
 [Further Antora Documentation](https://gitlab.com/antora/antora-ui-default)
